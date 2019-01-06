@@ -1,7 +1,5 @@
 package com.developer.mastercard;
 
-import com.developer.mastercard.WordHelper;
-import com.developer.mastercard.WordNode;
 import org.junit.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
