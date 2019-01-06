@@ -6,6 +6,11 @@ package com.developer.mastercard;
 
 public class WordHelper {
 
+    /***
+     *  Extract words from sentence stripping punctuations and special characters and returning the longest word and length
+     * @param sentence String sentence
+     * @return WordNode containing the longest word and length
+     */
     public static WordNode getLongestWord(String sentence) {
 
         if (sentence == null || sentence.length() < 1) {
